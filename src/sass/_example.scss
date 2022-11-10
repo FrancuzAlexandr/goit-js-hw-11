@@ -36,7 +36,9 @@ img {
     margin-left: auto;
     margin-right: auto;
   }
-  
+  .header{
+    background-color: rgb(67, 35, 173);
+  }
   .search-form {
     display: flex;
     width: 600px;
@@ -48,7 +50,7 @@ img {
   .btn {
     font-size: 14px;
     padding: 10px 20px;
-    background-color: #2ecc71;
+    background-color: #1b85b7;
     color: #ffffff;
     border: none;
     text-transform: uppercase;
@@ -59,5 +61,5 @@ img {
   .gallery {
     display: flex;
     flex-wrap: wrap;
-   gap: 15;
+   gap: 17;
   }

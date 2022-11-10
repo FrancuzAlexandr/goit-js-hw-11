@@ -4,7 +4,7 @@ export function markupGallery(arr) {
       return `<div class="photo-card">
       <div class="gallery">
       <a  href="${largeImageURL}">
-      <img src="${webformatURL}" alt="${tags}" loading="lazy" width="200" height="100" />  
+      <img src="${webformatURL}" alt="${tags}" loading="lazy" width="220" height="100" />  
       </a>
       </div>
       <div class="info">
