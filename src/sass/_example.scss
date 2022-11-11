@@ -61,10 +61,15 @@ ol {
 .gallery {
   display: flex;
   flex-wrap: wrap;
-  gap: 17;
+  gap: 20;
 }
 
 .photo-size {
-    width: 220px;
-    height: auto;
+    width: 300px;
+   
+}
+.info {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 30px;
 }
