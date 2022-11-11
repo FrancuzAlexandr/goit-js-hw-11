@@ -10,12 +10,9 @@ export function markupGallery(arr) {
         comments,
         downloads,
       }) => {
-        return `<div class="photo-card">
-      <div class="gallery">
-      <a  href="${largeImageURL}">
-      <img src="${webformatURL}" alt="${tags}" loading="lazy" width="220" height="100" />  
-      </a>
-      </div>
+        return `<a class="photo-size" href="${largeImageURL}">
+      <div class="photo-card">
+      <img src="${webformatURL}" alt="${tags}" loading="lazy"/>  
       <div class="info">
         <p class="info-item">
           <b>Likes</b>
@@ -34,7 +31,8 @@ export function markupGallery(arr) {
           ${downloads}
         </p>
         </div>
-    </div>`;
+    </div>
+    </a>`;
       }
     )
     .join('');
