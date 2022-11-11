@@ -37,14 +37,14 @@ ol {
   margin-right: auto;
 }
 .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   background-color: rgb(67, 35, 173);
 }
 .search-form {
   display: flex;
-  width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 40px;
+padding: 20px;
 }
 
 .btn {
@@ -55,21 +55,27 @@ ol {
   border: none;
   text-transform: uppercase;
   cursor: pointer;
-  margin-left: 10px;
   transition: background-color 250ms linear;
+  border-radius: 4px;
 }
 .gallery {
   display: flex;
   flex-wrap: wrap;
   gap: 20;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
 }
 
 .photo-size {
     width: 300px;
-   
+ 
 }
 .info {
     display: flex;
     gap: 5px;
     margin-bottom: 30px;
+    background-color: #f7f1f1;
+    padding: 5;
 }
